@@ -16,3 +16,8 @@ TEST(Sum, Five)
 {
     ASSERT_EQ(8, SumOfNaturalsDivisibleBy3And5(5));
 }
+
+TEST(Sum, Fifteen)
+{
+    ASSERT_EQ(60, SumOfNaturalsDivisibleBy3And5(15));
+}
