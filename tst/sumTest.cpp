@@ -21,3 +21,8 @@ TEST(Sum, Fifteen)
 {
     ASSERT_EQ(60, SumOfNaturalsDivisibleBy3And5(15));
 }
+
+TEST(Sum, NegativeNumber)
+{
+    ASSERT_EQ(0, SumOfNaturalsDivisibleBy3And5(-5));
+}
