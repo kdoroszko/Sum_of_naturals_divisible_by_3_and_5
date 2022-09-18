@@ -4,7 +4,7 @@ int SumOfNaturalsDivisibleBy3And5(int limitNumber)
     int sum = 0;
 
     for(currentNaturalNumber; currentNaturalNumber <= limitNumber; currentNaturalNumber++)
-        if(currentNaturalNumber % 3 == 0)
+        if(currentNaturalNumber % 3 == 0 || currentNaturalNumber % 5 == 0)
             sum += currentNaturalNumber;
 
     return sum;
